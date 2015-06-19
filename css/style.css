@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+
+body {
+	font-family: 'PT Mono', sans-serif;
+	color: #222;
+    font: 14px;
+}
+
+header {
+	padding: 40px 0;
+}
+
+h1 {
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	margin: 40px 0 10px 0;
+}
+
+.avatar {
+	border-radius: 50%;
+}
+.social-icons {
+	padding: 100px 0 0 0;
+	float: right;
+}
+
+section {
+	padding: 40px 0;
+}
+
+.feature p {
+	margin: 20px 0 0 0;
+	text-align: right;
+}
+
+.gallery img {
+	-webkit-filter: grayscale(100%);
+	transition: all 0.6s;
+}
+
+.gallery img:hover {
+	-webkit-filter: grayscale(0);
+}
+
+.gallery-image {
+	margin: 0 0 20px 0;
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.info {
+
+}
+
+footer {
+	padding: 30px 0;
+	color: #fafafa;
+	background-color: #333;
+	text-align: center;
+}
